@@ -1,0 +1,22 @@
+# Node
+node_modules
+
+# Nuxt
+.nuxt
+.output
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+
+# Editor
+.vscode
+
+# Env
+.env
+.env.*
