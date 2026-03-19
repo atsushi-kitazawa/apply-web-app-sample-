@@ -29,7 +29,7 @@ const items = computed(() => data.value?.items ?? [])
       <article v-for="item in items" :key="item.id" class="card">
         <div class="card-header">
           <div>
-            <h2>{{ item.name }}</h2>
+            <h2>{{ item.name }} ( {{ item.namekana }} )</h2>
             <p class="meta">{{ item.email }} / {{ item.phone }}</p>
           </div>
           <span class="badge">{{ item.status }}</span>

@@ -29,7 +29,7 @@ const { data, pending, error, refresh } = await useFetch<Application>(
     <div v-else-if="data" class="card">
       <div class="row">
         <div>
-          <h2>{{ data.name }}</h2>
+          <h2>{{ data.name }} ( {{ data.namekana }} )</h2>
           <p class="meta">{{ data.email }} / {{ data.phone }}</p>
         </div>
         <span class="badge">{{ data.status }}</span>

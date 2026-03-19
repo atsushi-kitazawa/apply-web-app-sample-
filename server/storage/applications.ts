@@ -3,6 +3,7 @@ export type ApplicationStatus = "received" | "reviewing" | "approved" | "rejecte
 export interface Application {
   id: string
   name: string
+  namekana: string
   email: string
   phone: string
   plan: "basic" | "standard" | "premium"

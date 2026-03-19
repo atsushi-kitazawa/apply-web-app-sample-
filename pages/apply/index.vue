@@ -18,6 +18,7 @@ const submit = async () => {
   try {
     const payload = {
       name: form.name,
+      namekana: form.namekana,
       email: form.email,
       phone: form.phone,
       plan: form.plan,
@@ -50,6 +51,10 @@ const submit = async () => {
       <label>
         お名前
         <input v-model="form.name" type="text" required placeholder="山田 太郎" />
+      </label>
+      <label>
+        お名前(カナ)
+        <input v-model="form.namekana" type="text" required placeholder="ヤマダ タロウ" />
       </label>
       <label>
         メールアドレス
